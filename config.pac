@@ -1,6 +1,5 @@
 function FindProxyForURL(url, host) {
     if (shExpMatch(url, "*openfront*") ||
-        shExpMatch(url, "*instagram*") ||
         shExpMatch(url, "*youtube*") ||
         shExpMatch(url, "*facebook*") || 
         shExpMatch(url, "*steam*")) {
